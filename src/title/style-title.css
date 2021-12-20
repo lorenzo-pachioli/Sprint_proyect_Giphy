@@ -1,0 +1,127 @@
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.searcher {
+  width: 40%;
+  border-radius: 15px;
+  height: 40px;
+  border: 1px solid #373737;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+}
+
+.searcher.dark {
+  border: 1px solid #ffffff;
+}
+
+.searcher .input {
+  border-style: none;
+  outline: none;
+  width: 80%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.searcher .input.dark {
+  background-color: #373737;
+  color: #ffffff;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.searcher button {
+  border-style: none;
+  outline: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 20%;
+  background-color: #572ee5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searcher button:hover {
+  width: 22%;
+}
+
+.searcher button:active .lupa {
+  width: 25%;
+}
+
+.cross-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  border: none;
+  box-sizing: border-box;
+  color: grey;
+  transition: all 0.5s ease-in-out;
+}
+.cross-container.dark {
+  color: lightgrey;
+  transition: all 0.5s ease-in-out;
+}
+
+.none-cross {
+  display: none;
+}
+
+.img-title {
+  width: 30%;
+}
+
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  line-height: 8vh;
+  text-align: center;
+  color: #572ee5;
+  transition: all 0.5s ease-in-out;
+}
+
+.title.dark {
+  color: #ffffff;
+}
+
+.lupa {
+  width: 30%;
+}
+
+.autocomplete {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  color: #572ee5;
+  transition: all 0.5s ease-in-out;
+}
+.list.dark {
+  background-color: #262626;
+  color: white;
+  border-style: none;
+  transition: all 0.5s ease-in-out;
+}
+.list {
+  border-style: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.list:hover {
+  font-size: 105%;
+  background-color: lightgray;
+}
+.list.dark:hover {
+  background-color: grey;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}

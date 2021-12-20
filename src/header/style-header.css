@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid #6809e1;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 20%;
+  height: 43px;
+  color: gray;
+  margin: 5px 15px;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn.dark {
+  background-color: #373737;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn:hover {
+  width: 22%;
+}
+
+.searcher button:active {
+  width: 15%;
+}
+
+.logo {
+  color: #572ee5;
+  margin: 5px 15px;
+  box-sizing: border-box;
+  padding: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.logo.dark {
+  color: #ffffff;
+  transition: all 0.25s ease-in-out;
+}
